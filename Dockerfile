@@ -16,5 +16,7 @@ ENV THEANO_FLAGS='device=cuda,floatX=float32'
 
 RUN pip --no-cache-dir theano
 
+RUN python -c "import theano"
+
 WORKDIR "/root"
 CMD ["/bin/bash"]
