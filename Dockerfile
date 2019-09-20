@@ -14,7 +14,7 @@ RUN pip --no-cache-dir install --upgrade git+https://github.com/jayanthkoushik/k
 ENV KERAS_BACKEND theano
 ENV THEANO_FLAGS='device=cuda,floatX=float32'
 
-RUN pip --no-cache-dir theano
+RUN pip --no-cache-dir install theano
 
 RUN python -c "import theano"
 
