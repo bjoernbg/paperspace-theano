@@ -1,6 +1,4 @@
-ROM terminus7/gpu-py3-th
-
-MAINTAINER Luis Mesas <luis.mesas@intelygenz.com>
+FROM terminus7/gpu-py3-th
 
 ARG KERAS_VERSION=2.0.4
 
